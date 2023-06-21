@@ -21,27 +21,35 @@ The lessons in this repository are designed to be used in person and consist of 
 
 **Topics**
 
-- `typeof`
 - type operators `&` and `|`
 - classes vs interfaces vs types
 - extends vs implements
-- overriding methods and constructors
 
-### Lesson 3 - Type shenanigans
+### Lesson 3 - inline functions
 
-**Topics**
-
-- `typeof`
-- type literals
-- type guards
-- assertion functions
-- tagged unions
+- inline functions
+- currying
+- void
+- never
 
 ### Lesson 4 - Generics
 
 **Topics**
 
 - generics
+- The useState hook
+
+### Lesson 5 - Type shenanigans
+
+**Topics**
+
+- `typeof`
+- `as const`
+- `satisfies`
+- type literals
+- type guards
+- assertion functions
+- tagged unions
 
 ### Lesson 5 - Advanced Types
 
