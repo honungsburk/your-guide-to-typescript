@@ -24,20 +24,20 @@ The lessons in this repository are designed to be used in person and consist of 
 - type operators `&` and `|`
 - classes vs interfaces vs types
 - extends vs implements
+- inline functions
+- void
+- never
+- function types (interface vs type)
+- generics
+- The useState hook
 
 ### Lesson 3 - inline functions
 
-- inline functions
-- currying
-- void
-- never
+- More on generics
 
 ### Lesson 4 - Generics
 
 **Topics**
-
-- generics
-- The useState hook
 
 ### Lesson 5 - Type shenanigans
 

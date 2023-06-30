@@ -26,7 +26,7 @@ const c2: C = { a: "a", d: 23 }; // error
 const c3: C = { b: "b", d: 23 }; // ok
 const c4: C = { a: "a", b: "b", d: 123 }; // ok
 
-function cTaker(c: C) {
+function handleC(c: C) {
   c.a; // err
   c.b; // err
   c.d; // ok!
@@ -211,7 +211,7 @@ class D implements A, B {
 }
 ```
 
-## Implements vs &
+## extends vs &
 
 **interface extends interface**
 
