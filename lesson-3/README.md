@@ -52,7 +52,7 @@ const t2: { isDeleted: boolean } = flip({
 });
 ```
 
-Unfortuntly we can not include any keys beyond `isDeleted` to fix this we will use generics.
+Unfortunately, we can not include any keys beyond `isDeleted` to fix this we will use generics.
 
 ```ts
 /**
