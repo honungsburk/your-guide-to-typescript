@@ -33,6 +33,11 @@ const filterTest3: (number | undefined)[] = filter(
   [1, undefined, 3]
 );
 
+function isString(x: any): x is string {
+  return typeof x === "string";
+}
+const filterTest4: string[] = filter(isString, ["1", undefined, 3]);
+
 // The below tests MUST NOT pass (red squiggles are expected)
 
 const filterErrorTest1: number[] = filter((n: number) => "", [1, 2, 3]);
