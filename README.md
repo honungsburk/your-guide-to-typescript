@@ -33,7 +33,10 @@ The lessons in this repository are designed to be used in person and consist of 
 
 ### Lesson 3 - inline functions
 
-- More on generics
+- putting constraints on generics
+- type guards
+- type level functions
+- Exercises
 
 ### Lesson 4 - Generics
 
@@ -47,7 +50,6 @@ The lessons in this repository are designed to be used in person and consist of 
 - `as const`
 - `satisfies`
 - type literals
-- type guards
 - assertion functions
 - tagged unions
 
