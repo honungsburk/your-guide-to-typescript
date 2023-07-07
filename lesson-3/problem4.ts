@@ -25,6 +25,5 @@ const updatedAtTest2: {
   name: string;
 } = updatedAt({ updatedAt: 123, isDeleted: false, name: "test" });
 
-// The below tests MUST fail (red squiggles)
-
+// @ts-expect-error
 const updatedAtTestFail1 = updatedAt("test");

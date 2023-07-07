@@ -26,7 +26,7 @@ const mapTest4: (string | number)[] = map(
   [true, false, true]
 );
 
-// The below tests MUST fail (red squiggles)
-
+// @ts-expect-error
 const mapTestFail1 = map("", [1, 2, 43]);
+// @ts-expect-error
 const mapTestFail2 = map((n) => n + 1, 123);

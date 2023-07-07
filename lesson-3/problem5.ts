@@ -38,6 +38,5 @@ const createdAtTest3: {
   values: { name: "sebastian", isDeleted: false },
 });
 
-// The below tests MUST fail (red squiggles)
-
+// @ts-expect-error
 const createdAtTestFail1 = createdAt("test");

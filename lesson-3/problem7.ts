@@ -37,7 +37,7 @@ const removeAllNullsTest3: { s: string | undefined; name: string } =
 
 const removeAllNullsTest4: {} = removeAllNulls({});
 
-// The below tests MUST NOT pass (red squiggles are expected)
-
+// @ts-expect-error
 const removeAllNullsErrorTest1 = removeAllNulls("");
+// @ts-expect-error
 const removeAllNullsErrorTest2 = removeAllNulls(true);

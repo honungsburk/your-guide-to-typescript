@@ -25,7 +25,7 @@ const zipTest2: [number | boolean, string][] = zip(
 const zipTest3: [string, { a: string }][] = zip(["1", "2", "3"], [{ a: "a" }]);
 const zipTest4: [never, never][] = zip([], []);
 
-// The below tests MUST fail (red squiggles)
-
+// @ts-expect-error
 const zipTestFail1 = zip([1, 2, 3], "");
+// @ts-expect-error
 const zipTestFail2 = zip("", 123);

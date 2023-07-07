@@ -38,7 +38,7 @@ function isString(x: any): x is string {
 }
 const filterTest4: string[] = filter(isString, ["1", undefined, 3]);
 
-// The below tests MUST NOT pass (red squiggles are expected)
-
+// @ts-expect-error
 const filterErrorTest1: number[] = filter((n: number) => "", [1, 2, 3]);
+// @ts-expect-error
 const filterErrorTest2: number[] = filter(123, "");
